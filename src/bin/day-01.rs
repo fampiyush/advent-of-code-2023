@@ -4,7 +4,7 @@ fn main() {
     // getting the input from input.txt file
     let input = fs::read_to_string("./src/bin/input-01.txt").expect("Failed to read input.txt");
 
-    // change the second argument to part 1 or 2
+    // change the second argument to part 1 or 2.
     get_lines(&input, 1);
 }
 
